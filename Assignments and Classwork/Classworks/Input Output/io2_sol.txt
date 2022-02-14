@@ -1,0 +1,12 @@
+a) cout << "Enter your name: ";
+
+b) cout << scientific;
+
+c) cout.fill( '*' );
+cout << setfill( '*' );
+
+d) cout << setprecision( 3 ) << 1.92 << " " << 1.925 << " " << 1.9258;
+
+e) cout << setw( 10 ) << 1234;
+
+f) cout << setw( x ) << setprecision( y ) << 87.4573;

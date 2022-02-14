@@ -1,0 +1,8 @@
+a) double *fPtr;
+b) fPtr = &number1;
+c) cout << "The value of *fPtr is " << *fPtr << endl;
+d) number2 = *fPtr;
+e) cout << "The value of number2 is " << number2 << endl;
+f) cout << "The address of number1 is " << &number1 << endl;
+g) cout << "The address stored in fPtr is " << fPtr << endl;
+Yes, the value is the same.

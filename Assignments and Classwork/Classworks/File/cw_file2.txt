@@ -1,0 +1,13 @@
+Find the error(s) and show how to correct it (them) in each of the following.
+
+a) File payables.dat referred to by ofstream object outPayable has not been opened.
+outPayable << account << company << amount << endl;
+
+b) The following statement should read a record (or line) from the file payables.dat. The ifstream
+object inPayable refers to this file, and istream object inReceivable refers to
+the file receivables.dat.
+inReceivable >> account >> company >> amount;
+
+c) The file tools.dat should be opened to add data to the file without discarding the current
+data. 
+ofstream outTools( "tools.dat", ios::out );

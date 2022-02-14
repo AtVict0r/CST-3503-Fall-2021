@@ -1,0 +1,12 @@
+For each of the following, show the output.
+a) cout<< "12345" << endl;
+cout.width( 5 );
+cout.fill( '*' );
+cout<< 123 << endl<< 123;
+
+b) cout<<setw( 10 )<<setfill( '$' )<< 10000;
+
+c) cout<<setw( 8 ) << fixed << setprecision( 3 )<< 1024.987654;
+
+d) cout<< 100000 << endl << showpos << 100000;
+

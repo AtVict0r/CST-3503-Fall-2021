@@ -1,0 +1,7 @@
+a) ifstream inOldMaster( "oldmast.dat", ios::in );
+
+c) ofstream outNewMaster( "newmast.dat", ios::out );
+
+d) inOldMaster >> accountNumber >> name >> currentBalance;
+
+f) outNewMaster << accountNum << " " << name << " " << currentBalance;

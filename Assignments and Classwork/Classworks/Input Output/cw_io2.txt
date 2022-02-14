@@ -1,0 +1,16 @@
+(Write a C++ Statement) For each of the following, write a single statement that performs
+the indicated task.
+
+a) Output the string "Enter your name: ".
+
+b) Use a stream manipulator to ensure that floating-point values print in scientific notation.
+
+c) Use a stream member function to set the fill character to '*' for printing in field widths
+larger than the values being output. Repeat this statement with a stream manipulator.
+
+d) Print 1.92, 1.925 and 1.9258 separated by spaces and with 3 digits of precision, using a stream manipulator.
+
+e) Print 1234 right justified in a 10-digit field.
+
+f) Use integer variables x and y to specify the field width and precision used to display the
+double value 87.4573, and display the value.

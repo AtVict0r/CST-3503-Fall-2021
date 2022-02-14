@@ -1,0 +1,11 @@
+a) Error: The file payables.dat has not been opened before the attempt is made to output
+data to the stream.
+Correction: Use ostream function open to open payables.dat for output.
+
+b) Error: The incorrect istream object is being used to read a record from the file named
+payables.dat.
+Correction: Use istream object inPayable to refer to payables.dat.
+
+c) Error: The file’s contents are discarded because the file is opened for output (ios::out).
+Correction: To add data to the file, open the file either for updating (ios::ate) or for
+appending (ios::app).

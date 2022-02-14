@@ -1,0 +1,15 @@
+Assume that each of the following statements applies to the same program.
+
+a) Write a statement that opens file oldmast.dat for input; use an ifstream object called
+inOldMaster.
+
+c) Write a statement that opens file newmast.dat for output (and creation); use ofstream
+object outNewMaster.
+
+d) Write a statement that reads a record (or line) from the file oldmast.dat. The record consists of
+integer accountNumber, string name and floating-point currentBalance; use ifstream
+object inOldMaster.
+
+f) Write a statement that writes a record (or line) to the file newmast.dat. The record consists of
+integer accountNum, string name, and floating-point currentBalance; use ofstream object
+outNewMaster.
